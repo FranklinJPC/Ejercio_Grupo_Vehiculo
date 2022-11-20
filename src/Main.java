@@ -6,5 +6,7 @@ public class Main
 
         System.out.println("Hola mundo");
         metodos.algo();
+        Vehiculo vizualizar = new Vehiculo();
+        vizualizar.Visualizar();
     }
 }
