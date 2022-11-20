@@ -12,10 +12,10 @@ public class Main
                     break;
                 case 2:
                     System.out.println("Los datos del vehiculo");
+                    Vehiculo vizualizar = new Vehiculo();
+                    vizualizar.Visualizar();
                     break;
             }
         }while (op != 0);
-
-
     }
 }

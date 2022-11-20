@@ -43,4 +43,47 @@ public class Vehiculo
     public void setPrecioVehiculo(String precioVehiculo) {
         this.precioVehiculo = precioVehiculo;
     }
+    public void Visualizar(){
+        System.out.println("\t<<-- Caracteristicas del Vehiculo -->>");
+        System.out.println();
+        System.out.println("-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/");
+        System.out.println("-<-<-<-<-<-<-<-< V E I H C U L O 1 -<-<-<-<-<-<-<-<-<-<");
+        System.out.println("|\tMarca del Vehiculo:  "+getMarcaVehiculo()+"                |");
+        System.out.println("|\tModelo del Vehiculo: "+getModeloVehiculo()+"                 |");
+        System.out.println("|\tColor del Vehiculo:  "+getColorVehiculo()+"                  |");
+        System.out.println("|\tPrecio del Vehiculo: "+getPrecioVehiculo()+"               |");
+        System.out.println("-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/");
+        System.out.println();
+        System.out.println("-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/");
+        System.out.println("-<-<-<-<-<-<-<-< V E I H C U L O 2 -<-<-<-<-<-<-<-<-<-<");
+        System.out.println("|\tMarca del Vehiculo:  "+getMarcaVehiculo()+"                |");
+        System.out.println("|\tModelo del Vehiculo: "+getModeloVehiculo()+"                 |");
+        System.out.println("|\tColor del Vehiculo:  "+getColorVehiculo()+"                  |");
+        System.out.println("|\tPrecio del Vehiculo: "+getPrecioVehiculo()+"               |");
+        System.out.println("-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/");
+        System.out.println();
+        System.out.println("-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/");
+        System.out.println("-<-<-<-<-<-<-<-< V E I H C U L O 3 -<-<-<-<-<-<-<-<-<-<");
+        System.out.println("|\tMarca del Vehiculo:  "+getMarcaVehiculo()+"                |");
+        System.out.println("|\tModelo del Vehiculo: "+getModeloVehiculo()+"                 |");
+        System.out.println("|\tColor del Vehiculo:  "+getColorVehiculo()+"                  |");
+        System.out.println("|\tPrecio del Vehiculo: "+getPrecioVehiculo()+"               |");
+        System.out.println("-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/");
+        System.out.println();
+        System.out.println("-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/");
+        System.out.println("-<-<-<-<-<-<-<-< V E I H C U L O 4 -<-<-<-<-<-<-<-<-<-<");
+        System.out.println("|\tMarca del Vehiculo:  "+getMarcaVehiculo()+"                |");
+        System.out.println("|\tModelo del Vehiculo: "+getModeloVehiculo()+"                 |");
+        System.out.println("|\tColor del Vehiculo:  "+getColorVehiculo()+"                  |");
+        System.out.println("|\tPrecio del Vehiculo: "+getPrecioVehiculo()+"               |");
+        System.out.println("-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/");
+        System.out.println();
+        System.out.println("-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/");
+        System.out.println("-<-<-<-<-<-<-<-< V E I H C U L O 5 -<-<-<-<-<-<-<-<-<-<");
+        System.out.println("|\tMarca del Vehiculo:  "+getMarcaVehiculo()+"                |");
+        System.out.println("|\tModelo del Vehiculo: "+getModeloVehiculo()+"                 |");
+        System.out.println("|\tColor del Vehiculo:  "+getColorVehiculo()+"                  |");
+        System.out.println("|\tPrecio del Vehiculo: "+getPrecioVehiculo()+"               |");
+        System.out.println("-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/");
+    }
 }
