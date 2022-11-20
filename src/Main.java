@@ -2,9 +2,18 @@ public class Main
 {
     public static void main(String[] args)
     {
-        Metodos metodos = new Metodos();
+        int op;
+        Metodos menu = new Metodos();
+        do{
+            op = menu.menu();
+            switch(op){
+                case 1:
+                    break;
+                case 2:
+                    break;
+            }
+        }while (op != 0);
 
-        System.out.println("Hola mundo");
-        metodos.algo();
+
     }
 }
