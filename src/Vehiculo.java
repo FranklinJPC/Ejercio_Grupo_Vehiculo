@@ -12,6 +12,14 @@ public class Vehiculo
         precioVehiculo="$49.990";
     }
 
+    public Vehiculo(String marca, String modelo, String color, String precio)
+    {
+        this.marcaVehiculo = marca;
+        this.precioVehiculo = precio;
+        this.colorVehiculo = color;
+        this.modeloVehiculo = modelo;
+    }
+
     public String getMarcaVehiculo() {
         return marcaVehiculo;
     }
@@ -43,4 +51,5 @@ public class Vehiculo
     public void setPrecioVehiculo(String precioVehiculo) {
         this.precioVehiculo = precioVehiculo;
     }
+
 }
