@@ -3,6 +3,10 @@ Implamentar una aplicación que me permita crear  5 vehículos e ingresar sus da
 
 Imagenes del codigo en ejecucion:
 
+## Ingreso de Datos
+
 ![Entrada de Datos](https://github.com/FranklinJPC/Ejercio_Grupo_Vehiculo/blob/master/Programa%20Corriendo/cap1.png)
+
+## Salida de Datos
 
 ![Salida de Datos](https://github.com/FranklinJPC/Ejercio_Grupo_Vehiculo/blob/master/Programa%20Corriendo/cap2.png)
